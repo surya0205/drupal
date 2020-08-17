@@ -1,0 +1,8 @@
+uuid: febd58c7-da03-49ca-a113-67f76230ea58
+langcode: en
+status: true
+dependencies: {  }
+name: 'Article SubCategory'
+vid: article_subcategory
+description: 'Sub Category'
+weight: 0

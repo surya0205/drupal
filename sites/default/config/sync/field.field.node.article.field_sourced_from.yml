@@ -1,0 +1,19 @@
+uuid: 3f3dd234-fe1a-475a-9445-154319241975
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sourced_from
+    - node.type.article
+id: node.article.field_sourced_from
+field_name: field_sourced_from
+entity_type: node
+bundle: article
+label: 'Sourced From'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

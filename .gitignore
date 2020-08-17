@@ -1,0 +1,8 @@
+#sites/default/*
+sites/default/files/*
+#.gitignore
+sites/default/settings.php
+modules/contrib/*
+core/
+vendor/*
+/nbproject/private/

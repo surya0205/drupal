@@ -1,0 +1,8 @@
+uuid: 50c3dd94-df43-42dd-9e38-77670e3f27d1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Article Category'
+vid: article_category
+description: 'This Category use for categories the Article'
+weight: 0

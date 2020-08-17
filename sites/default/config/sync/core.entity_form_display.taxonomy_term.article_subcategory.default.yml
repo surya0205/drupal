@@ -1,0 +1,29 @@
+uuid: 57ba1b4e-7d35-40ad-a89d-535f0635fd3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.article_subcategory
+id: taxonomy_term.article_subcategory.default
+targetEntityType: taxonomy_term
+bundle: article_subcategory
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true
